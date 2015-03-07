@@ -1,22 +1,19 @@
-<%@page import="com.controller.Update"%>
+<%@page import="control.mvc.Update"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="com.controller.ConnectionToDatabase"%>
-<%@page import="com.controller.Delete"%>
-<%@page import="com.model.DataColumn"%>
-<%@page import="com.controller.Insert"%>
+<%@page import="control.mvc.ConnectionToDatabase"%>
+<%@page import="control.mvc.Delete"%>
+<%@page import="model.mvc.DataColumn"%>
+<%@page import="control.mvc.Insert"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
     <head>
         <link rel="stylesheet" href="StyleIndex.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PAGE MVC EMPLOYEES</title>
+        <title>employee</title>
     </head>
     <body id="body">
 
-        <div><center><h1>List Employees ( ตารางพนักงาน )</h1></center></div>
+        <div id="employee"><h1>---------- employee ----------</h1></div>
         <%
             String code = "0";
             String delete = request.getParameter("txtdeleteid");

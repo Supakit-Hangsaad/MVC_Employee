@@ -1,25 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package control.mvc;
 
-package com.controller;
-
-import com.model.DataColumn;
+import model.mvc.DataColumn;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
-
-
-
-/**
- *
- * @author Best
- */
 @ManagedBean
 @ViewScoped
 public class ShowData {

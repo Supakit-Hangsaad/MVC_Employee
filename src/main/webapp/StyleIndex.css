@@ -1,7 +1,9 @@
-#body {
-    background-color: linen;
-}        
-#idmove{
+        #employee{
+            position: absolute;
+            margin-left: 100px;
+            color: blue;
+        }        
+        #idmove{
             position: absolute;
             margin-left: 100px;
             top: 60px;
@@ -10,114 +12,114 @@
         #inputid{
             width: 70px;
             position: absolute;
-            margin-left: 125px;
+            margin-left: 200px;
             top: 80px;
         }
        
         #firstnamemove{
             position: absolute;
-            margin-left: 210px;
-            top: 60px;
+            margin-left: 100px;
+            top: 100px;
         }
         #inputfirstname{
             width: 180px;
             position: absolute;
-            margin-left: 310px;
-            top: 80px; 
+            margin-left: 200px;
+            top: 120px; 
         }
         #lastnamemove{
             position: absolute;
-            margin-left: 510px;
-            top: 60px;  
+            margin-left: 100px;
+            top: 140px;  
         }
         #inputlastname{
             width: 180px;
             position: absolute;
-            margin-left: 610px;
-            top: 80px; 
+            margin-left: 200px;
+            top: 160px; 
         }
         #emailmove{
             position: absolute;
-            margin-left: 810px;
-            top: 60px;
+            margin-left: 100px;
+            top: 180px;
         }
         #inputemail{
             width: 220px;
             position: absolute;
-            margin-left: 880px;
-            top: 80px; 
+            margin-left: 200px;
+            top: 200px; 
         }
         #phonenumber{
             position:absolute;
-            margin-left: 1125px;
-            top: 60px;
+            margin-left: 100px;
+            top: 220px;
         }
         #inputphone{
             width: 150px;
             position: absolute;
-            margin-left: 1260px;
-            top: 80px; 
+            margin-left: 250px;
+            top: 240px; 
         }
         #salarymove{
             position: absolute;
-            margin-left: 480px;
-            top: 100px;
+            margin-left: 100px;
+            top: 260px;
         }
         #inputsalary{
             width: 100px;
             position: absolute;
-            margin-left: 550px;
-            top: 120px; 
+            margin-left: 200px;
+            top: 280px; 
         }
        #buttonOk{
             width: 105px;
             position: absolute;
-            left: 680px;
-            top: 120px;
-            background-color: black;
-            color: greenyellow;
+            left: 100px;
+            top: 350px;
+            background-color: palevioletred;
+            color: papayawhip;
             }
        #buttonclear{
             width: 105px;
             position: absolute;
-            left: 800px;
-            top: 120px;
-            background-color: whitesmoke;
-            color: blue;    
+            left: 250px;
+            top: 350px;
+            background-color: indianred;
+            color: ivory;    
             }
         #searchmove{
             position: absolute;
-            margin-left: 500px;
-            top: 160px;
+            margin-left: 100px;
+            top: 400px;
             z-index: 20;
         }
         #inputsearch{
             width: 215px;
             position: absolute;
-            margin-left: 570px;
-            top: 180px; 
+            margin-left: 100px;
+            top: 440px; 
             z-index: 20;
         }
         #searchselect{
             height: 20px;
             position: absolute;
-            top: 180px;
-            left: 820px;
+            top: 440px;
+            left: 335px;
             z-index: 20;
         }
         #buttonsearch{
             width: 100px;
             position: absolute;
-            left: 920px;
-            top: 180px;
-            background-color: wheat;
-            color: black;
+            left: 450px;
+            top: 440px;
+            background-color: hotpink;
+            color: lightyellow;
             z-index: 20;
         }
          table{
             border-collapse: collapse;
-            margin-top: 150px;
-            left: 150px;
+            margin-top: 15px;
+            left: 600px;
             position: absolute;
         }
 
@@ -131,7 +133,7 @@
         }
 
         thead > tr{
-            background-color: cornsilk;
+            background-color: white;
         }
         .tdno{
             width: 60px;
@@ -151,15 +153,15 @@
         #buttondelete{
             width: 120px;
             margin-top: 5px;
-            background-color: red;
+            background-color: rosybrown;
             color: white;
             
           
         }
         #buttonupdate{
             width: 120px;
-            background-color: gold;
-            color: brown;
+            background-color: peru;
+            color: blue;
             
         }
         

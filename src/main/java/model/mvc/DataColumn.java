@@ -1,9 +1,9 @@
 
 
-package com.model;
+package model.mvc;
 
-import com.controller.ConnectionToDatabase;
-import com.controller.SearchBy;
+import control.mvc.ConnectionToDatabase;
+import control.mvc.SearchBy;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
