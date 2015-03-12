@@ -54,8 +54,7 @@ public class Update {
     }
     
     public static void main(String[] args) {
-       // Update up = new Update();
-        //up.UpdateData("0005","Kittiporn","Khamlai" ,"best@gmail.com","0923679647", 70000, "0005");
+       
         String s = "";
         if(s.equals("")){
             System.out.println(1);
